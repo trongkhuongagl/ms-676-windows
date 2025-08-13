@@ -778,7 +778,6 @@ img {
   }
   .link {
     display: inline-block;
-    width: 149px;
     font-size: 16px;
     font-weight: 700;
     background-color: #001968;
@@ -786,6 +785,7 @@ img {
     line-height: calc(21/16);
     padding: 8px 23px;
     text-decoration: none;
+    white-space: nowrap;
     transition: all 0.3s;
     &:hover {
       opacity: 0.7;
@@ -800,7 +800,6 @@ img {
     }
 
     @media screen and (max-width: 1200px) {
-      width: vw_pc(149);
       font-size: vw_pc(16);
       padding: vw_pc(8) vw_pc(23);
 
@@ -811,7 +810,6 @@ img {
     }
 
     @media screen and (max-width: 750px) {
-      width: vw_sp(247);
       font-size: vw_sp(28);
       letter-spacing: 0.02em;
       padding: vw_sp(21) vw_sp(32);

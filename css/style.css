@@ -856,7 +856,6 @@ img {
 }
 .box_product .link {
   display: inline-block;
-  width: 149px;
   font-size: 16px;
   font-weight: 700;
   background-color: #001968;
@@ -864,6 +863,7 @@ img {
   line-height: 1.3125;
   padding: 8px 23px;
   text-decoration: none;
+  white-space: nowrap;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -879,7 +879,6 @@ img {
 }
 @media screen and (max-width: 1200px) {
   .box_product .link {
-    width: 12.4166666667vw;
     font-size: 1.3333333333vw;
     padding: 0.6666666667vw 1.9166666667vw;
   }
@@ -890,7 +889,6 @@ img {
 }
 @media screen and (max-width: 750px) {
   .box_product .link {
-    width: 32.9333333333vw;
     font-size: 3.7333333333vw;
     letter-spacing: 0.02em;
     padding: 2.8vw 4.2666666667vw;
