@@ -128,7 +128,7 @@ img {
   }
 
   @media screen and (max-width: 750px) {
-    margin-top: vw_sp(95);
+    margin-top: vw_sp(96);
   }
 
   &_content {
@@ -562,7 +562,7 @@ img {
       }
     }
     .head {
-      background-image: linear-gradient(to right, #EA6392 0%, #E9588C 28%, #E61D77 71%, #E6287A 100%);
+      background-image: linear-gradient(-90deg, #EA6392 0%, #E9588C 28%, #E61D77 71%, #E6287A 100%);
     }
   }
   .link {
@@ -582,11 +582,24 @@ img {
       opacity: 0.7;
     }
 
+    .arrow {
+      display: inline-block;
+      line-height: 1;
+      position: relative;
+      top: -3px;
+      left: 4px;
+    }
+
     @media screen and (max-width: 1200px) {
       font-size: vw_pc(18);
       padding: vw_pc(7) vw_pc(16);
       margin-top: vw_pc(49);
       margin-left: vw_pc(6);
+
+      .arrow {
+        top: vw_pc(-3);
+        left: vw_pc(4);
+      }
     }
 
     @media screen and (max-width: 750px) {
@@ -746,7 +759,7 @@ img {
     font-weight: 400;
     color: #000;
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
     word-break: break-word;
 
     @media screen and (max-width: 1200px) {
@@ -776,15 +789,33 @@ img {
       opacity: 0.7;
     }
 
+    .arrow {
+      display: inline-block;
+      line-height: 1;
+      position: relative;
+      top: -3px;
+      left: 4px;
+    }
+
     @media screen and (max-width: 1200px) {
       font-size: vw_pc(16);
       padding: vw_pc(8) vw_pc(24);
+
+      .arrow {
+        top: vw_pc(-3);
+        left: vw_pc(4);
+      }
     }
 
     @media screen and (max-width: 750px) {
       font-size: vw_sp(28);
       letter-spacing: 0.02em;
       padding: vw_sp(21) vw_sp(34);
+
+      .arrow {
+        top: vw_sp(-3);
+        left: vw_sp(4);
+      }
     }
   }
 }
@@ -931,11 +962,11 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 60px;
-  margin-top: 94px;
+  margin-top: 96px;
 
   @media screen and (max-width: 1200px) {
     gap: vw_pc(60);
-    margin-top: vw_pc(94);
+    margin-top: vw_pc(96);
   }
 
   @media screen and (max-width: 750px) {
@@ -966,7 +997,7 @@ img {
   }
 
   @media screen and (max-width: 750px) {
-    margin-top: vw_sp(216);
+    margin-top: vw_sp(214);
     padding: vw_sp(20) 0 vw_sp(10);
   }
 }
@@ -983,7 +1014,7 @@ img {
 }
 
 .wrapper-wide .notes-head {
-  max-width: 1200px;
+  max-width: 1190px;
   margin: 0 auto;
   display: block;
   font-weight: 400;
@@ -1001,7 +1032,7 @@ img {
   color: #010101;
 
   @media screen and (max-width: 1200px) {
-    max-width: vw_pc(1200);
+    max-width: vw_pc(1190);
     font-size: vw_pc(18);
     padding: vw_pc(20) 0;
   }
@@ -1023,8 +1054,8 @@ img {
 .wrapper-wide .notes-head::after {
   content: '';
   position: absolute;
-  top: 34%;
-  right: 21px;
+  top: 31%;
+  right: 17px;
   width: 20px;
   height: 20px;
   border-right: 1px solid #000;
@@ -1044,10 +1075,10 @@ img {
 }
 
 .wrapper-wide .notes-body-inr {
-  padding: 25px 0 138px;
+  padding: 22px 0 138px;
 
   @media screen and (max-width: 1200px) {
-    padding: vw_pc(25) 0 vw_pc(138);
+    padding: vw_pc(22) 0 vw_pc(138);
   }
 }
 
@@ -1105,34 +1136,15 @@ img {
 // .u-txt12
 .u-txt12 {
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.67;
   font-weight: 400;
   color: #000;
 
-  .star {
-    display: inline-block;
-  }
-  .dot {
-    display: inline-block;
-    line-height: 1;
-    font-size: 20px;
-    position: relative;
-    top: 3px;
-    margin-right: 3px;
-  }
-
   @media screen and (max-width: 1200px) {
     font-size: vw_pc(12);
-    .dot {
-      font-size: vw_pc(20);
-    }
   }
 
   @media screen and (max-width: 750px) {
     font-size: vw_sp(16);
-    line-height: 1.25;
-    .dot {
-      font-size: vw_sp(28);
-    }
   }
 }
