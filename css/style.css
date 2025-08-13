@@ -173,8 +173,8 @@ img {
   border-radius: 10px;
   overflow: hidden;
   padding: 37px 20px 33px;
-  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px 5px;
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px 5px;
+  -webkit-box-shadow: rgba(18, 27, 181, 0.1) 0px 0px 11px;
+          box-shadow: rgba(18, 27, 181, 0.1) 0px 0px 11px;
 }
 @media screen and (max-width: 1200px) {
   .product .product_block {
@@ -475,11 +475,12 @@ img {
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #ccc;
-  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px 5px;
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px 5px;
+  -webkit-box-shadow: rgba(18, 27, 181, 0.15) 0px 0px 11px;
+          box-shadow: rgba(18, 27, 181, 0.15) 0px 0px 11px;
 }
 
 .tab_btn {
+  font-family: "Segoe UI", SegoeUI, "Yu Gothic UI", "Meiryo UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -552,8 +553,8 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 19px;
-  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px 5px;
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px 5px;
+  -webkit-box-shadow: rgba(18, 27, 181, 0.2) 0px 0px 11px;
+          box-shadow: rgba(18, 27, 181, 0.2) 0px 0px 11px;
 }
 .tab_content.active {
   display: block;
@@ -566,6 +567,7 @@ img {
 }
 @media screen and (max-width: 750px) {
   .tab_content {
+    border-width: 0.8vw;
     padding: 6.6666666667vw 5.4666666667vw 5.4666666667vw 6vw;
     margin-top: 4.2666666667vw;
   }
@@ -684,6 +686,7 @@ img {
 }
 @media screen and (max-width: 750px) {
   .box_movie .movie {
+    border-width: 1.2vw;
     width: 100%;
   }
 }
@@ -971,10 +974,16 @@ img {
   margin-bottom: 38px;
   text-align: center;
 }
+.find_desc .small {
+  font-size: 18px;
+}
 @media screen and (max-width: 1200px) {
   .find_desc {
     font-size: 1.6666666667vw;
     margin-bottom: 3.1666666667vw;
+  }
+  .find_desc .small {
+    font-size: 1.5vw;
   }
 }
 @media screen and (max-width: 750px) {
@@ -985,6 +994,9 @@ img {
     margin-left: -3.3333333333vw;
     margin-right: -3.3333333333vw;
     line-height: 1.8;
+  }
+  .find_desc .small {
+    font-size: 3.7333333333vw;
   }
 }
 .find_btn {
