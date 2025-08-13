@@ -851,16 +851,16 @@ img {
     line-height: 1.4230769231;
     letter-spacing: 0.02em;
     margin-top: -3.0666666667vw;
-    margin-bottom: 5.2vw;
+    margin-bottom: 5.0666666667vw;
   }
 }
 .box_product .link {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   background-color: #001968;
   color: #fff;
   line-height: 1.3125;
-  padding: 8px 24px;
+  padding: 8px 23px;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -878,7 +878,7 @@ img {
 @media screen and (max-width: 1200px) {
   .box_product .link {
     font-size: 1.3333333333vw;
-    padding: 0.6666666667vw 2vw;
+    padding: 0.6666666667vw 1.9166666667vw;
   }
   .box_product .link .arrow {
     top: -0.25vw;
@@ -889,7 +889,7 @@ img {
   .box_product .link {
     font-size: 3.7333333333vw;
     letter-spacing: 0.02em;
-    padding: 2.8vw 4.5333333333vw;
+    padding: 2.8vw 4.2666666667vw;
   }
   .box_product .link .arrow {
     top: -0.4vw;
