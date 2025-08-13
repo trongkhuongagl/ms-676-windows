@@ -1005,17 +1005,20 @@ img {
 .wrapper-wide {
   background-color: #f2f2f2;
   text-align: center;
-  padding: 20px 0 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 93px;
 
   @media screen and (max-width: 1200px) {
     margin-top: vw_pc(93);
-    padding: vw_pc(20) 0 vw_pc(10);
+    padding-top: vw_pc(20);
+    padding-bottom: vw_pc(20);
   }
 
   @media screen and (max-width: 750px) {
     margin-top: vw_sp(214);
-    padding: vw_sp(20) 0 vw_sp(10);
+    padding-top: vw_sp(20);
+    padding-bottom: vw_sp(20);
   }
 }
 
@@ -1071,7 +1074,7 @@ img {
 .wrapper-wide .notes-head::after {
   content: '';
   position: absolute;
-  top: 31%;
+  top: 44%;
   right: 17px;
   width: 20px;
   height: 20px;
@@ -1092,7 +1095,7 @@ img {
 }
 
 .wrapper-wide .notes-body-inr {
-  padding: 22px 0 138px;
+  padding: 21px 0 138px;
 
   @media screen and (max-width: 1200px) {
     padding: vw_pc(22) 0 vw_pc(138);
@@ -1129,7 +1132,7 @@ img {
   .wrapper-wide .notes-head::after {
     content: '';
     position: absolute;
-    top: 50%;
+    top: 59%;
     right: vw_sp(4);
     width: vw_sp(32);
     height: vw_sp(32);
@@ -1140,7 +1143,7 @@ img {
 
   .wrapper-wide .notes.is-closed .notes-head::after {
     transform: translateY(-55%) rotate(45deg);
-    top: 50%;
+    top: 43%;
   }
 
   .wrapper-wide .notes-body-inr {
