@@ -547,7 +547,7 @@ img {
   display: none;
   border: 6px solid #fff;
   padding: 41px 10px 25px 34px;
-  background-image: url("images/bg_tab_01.png");
+  background-image: url("../images/bg_tab_01.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -572,7 +572,7 @@ img {
 }
 
 .tab_content_copilot {
-  background-image: url("images/bg_tab_01_copilot.png");
+  background-image: url("../images/bg_tab_01_copilot.png");
   padding-bottom: 45px;
 }
 @media screen and (max-width: 1200px) {
