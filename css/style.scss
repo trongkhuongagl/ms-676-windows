@@ -1142,6 +1142,12 @@ img {
   font-weight: 400;
   color: #000;
 
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   @media screen and (max-width: 1200px) {
     font-size: vw_pc(12);
   }
